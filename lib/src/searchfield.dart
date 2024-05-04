@@ -670,7 +670,7 @@ class _SearchFieldState<T> extends State<SearchField<T>> {
                     if (widget.onTapOutside != null) {
                       widget.onTapOutside!(x);
                     }
-                    _searchFocus!.unfocus();
+                    // _searchFocus!.unfocus();
                   },
                   onSuggestionTapped: onSuggestionTapped,
                   suggestionItemDecoration: widget.suggestionItemDecoration,
